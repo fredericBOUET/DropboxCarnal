@@ -9,5 +9,6 @@
 @stop
 
 @section('content')
-<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark" data-redirecturi="http://dropboxtestcarnal.com:8000/callback"></div>
+<p id='msgError'></p>
 @stop
